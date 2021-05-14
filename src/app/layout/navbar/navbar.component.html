@@ -1,0 +1,18 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark green">
+    <div class="container ">
+        <a class="navbar-brand mr-auto" routerLink="/home">LEMACO MOTOR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto  ">
+                <li class="nav-item" *ngFor="let navItem of navbarItem">
+                    <a class="nav-link" [routerLink]="navItem.link">
+                        {{navItem.name}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
