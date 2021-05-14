@@ -1,0 +1,25 @@
+<div class="container">
+    <h3 class="mb-3">Votre voiture bichonée et en sécurité</h3>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm mb-3" *ngFor="let i of iconesLigne1">
+                <div class="valign-center">
+                    <i class="material-icons md-36">{{i.icone}}</i>
+                    <span>{{i.description}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm mb-3" *ngFor="let i of iconesLigne2">
+                <div class="valign-center">
+                    <i class="material-icons md-36">{{i.icone}}</i>
+                    <span>{{i.description}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+</div>
