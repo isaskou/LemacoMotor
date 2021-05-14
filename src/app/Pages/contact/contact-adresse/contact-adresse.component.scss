@@ -1,0 +1,51 @@
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+h3{
+    color: #18391E;
+}
+
+.valign-center {
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+}
+
+i{
+    color: #18391E;
+    margin-right: 0.5em;
+}
+
+// img{
+//     width: 300px; 
+//     height: auto;
+//     position:absolute;
+// }
+
+a{
+    color: rgb(88,41,0);
+    padding: 2px 1px 0;
+    font-weight: bold;
+}
+
+// a:focus{
+
+
+// }
+// a:hover{
+
+// }
+// a:active{
+
+// }
