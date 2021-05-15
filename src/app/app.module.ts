@@ -65,7 +65,7 @@ import { DiapoComponent } from './Pages/vente/vente-aVendre/austin/diapo/diapo.c
     AustinComponent,
     BlogComponent,
     BlogCardsComponent,
-    DiapoComponent
+    DiapoComponent,
     ],
   imports: [
     BrowserModule,
