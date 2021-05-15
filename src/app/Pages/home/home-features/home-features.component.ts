@@ -25,10 +25,10 @@ export class HomeFeaturesComponent implements OnInit {
         link:'/parking'
       },
       {
-        title:'Contact',
-        description:'Nous restons à votre disposition pour toute question complémentaire',
-        img: 'assets/icones/contact.png',
-        link:'/contact'
+        title:'Vente',
+        description:'Découvrez les véhicules mis en vente chez Lemaco',
+        img: 'assets/icones/vente.png',
+        link:'/vente'
       }
     ]
   }
