@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PopoverModule} from 'ngx-bootstrap/popover';
 import {BootstrapIconsModule} from 'ng-bootstrap-icons';
 import {allIcons} from 'ng-bootstrap-icons/icons';
+import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 import { AppComponent } from './app.component';
@@ -20,7 +21,6 @@ import { VenteComponent } from './Pages/vente/vente.component';
 import { HomeBannerComponent } from './Pages/home/home-banner/home-banner.component';
 import { HomeFeatureCardComponent } from './Pages/home/home-feature-card/home-feature-card.component';
 import { HomeFeaturesComponent } from './Pages/home/home-features/home-features.component';
-import { NgbCarousel, NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ServicesTitleComponent } from './Pages/services/services-title/services-title.component';
 import { ParkingTitleComponent } from './Pages/parking/parking-title/parking-title.component';
 import { ParkingAccrocheComponent } from './Pages/parking/parking-accroche/parking-accroche.component';
