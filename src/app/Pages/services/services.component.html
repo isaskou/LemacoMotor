@@ -1,17 +1,15 @@
 <app-services-title></app-services-title>
+
 <div class="container">
     <div class="row">
         <div class="col-md-7">
-            <a href="#">
-                <img class="img-fluid rounded mb-3 mb-md-0" src="../../../assets/mecanique.jpg" alt="">
-            </a>
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../../../assets/mecanique.jpg" alt="pièces d'un moteur démonté qui représent la mécanique et l'électricité"
+                title="Mécanique et Electricité">
         </div>
         <div class="col-md-4">
             <h3>Mécanique et Electricité</h3>
-            <p>De l'entretien a la révision moteur en passant par la remise en état de tous les organes du véhicules.</p>
+            <p>De l'entretien à la révision moteur en passant par la remise en état de tous les organes du véhicules.</p>
             <p>Spécialisé dans la mise au point et la fiabilisation et l'amélioration des performances. </p>
-            <a class="btn btn-green" routerLink="/contact">Contactez-nous
-            </a>
         </div>
     </div>
     <hr>
@@ -25,13 +23,9 @@
             Il ne s'agit donc pas de juste changer les lubrifiants et parfaire les niveaux. </p>
             
             <p>Nous apportons un soin tout particulier au contrôle et à la prévention lors de votre visite. </p>
-            <a class="btn btn-green" routerLink="/contact">Contactez-nous
-            </a>
         </div>
         <div class="col-md-7">
-            <a href="#">
-                <img class="img-fluid rounded mb-3 mb-md-0" src="../../../assets/entretien.jpg" alt="">
-            </a>
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../../../assets/entretien.jpg" alt="bouchon d'huile de moteur pour représenter l'entretien des oldtimers">
         </div>
     </div>
     <hr>
@@ -40,16 +34,14 @@
 <div class="container">
     <div class="row">
         <div class="col-md-7">
-            <a href="#">
-                <img class="img-fluid rounded mb-3 mb-md-0" src="../../../assets/expertise.jpg" alt="">
-            </a>
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../../../assets/expertise.jpg" alt="Austin Healey avec le capot ouvert prête pour l'expertise chez Lemaco Motor">
         </div>
         <div class="col-md-4">
             <h3>Expertise</h3>
             <p>Les expertises et check-up se font exclusivement en nos ateliers.</p>
             <p>Possiblité d'expertiser la valeur du véhicule par expert agréé par les compagnies d'assurance.</p>
-            <a class="btn btn-green" routerLink="/contact">Contactez-nous
-            </a>
+            <!-- <a class="btn btn-green" routerLink="/contact">Contactez-nous
+            </a> -->
         </div>
     </div>
     <hr>
@@ -65,10 +57,13 @@
             </a>
         </div>
         <div class="col-md-7">
-            <a href="#">
-                <img class="img-fluid rounded mb-3 mb-md-0" src="../../../assets/services_parking.jpg" alt="">
+            <a routerLink="/parking" title="Parling et conciergerie">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="../../../assets/services_parking.jpg" alt="différentes voitures anglaises telles que MG-A et Jaguar MK9 en parking"
+                title="Parking et conciergerie">
             </a>
         </div>
     </div>
     <hr>
 </div>
+
+<app-button-contact></app-button-contact>
