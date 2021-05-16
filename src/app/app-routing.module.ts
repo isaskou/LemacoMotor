@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContactComponent } from './Pages/contact/contact.component';
 import { HomeComponent } from './Pages/home/home.component';
+import { NotFoundComponent } from './Pages/not-found/not-found.component';
 import { ParkingComponent } from './Pages/parking/parking.component';
 import { ServicesComponent } from './Pages/services/services.component';
 import { AustinComponent } from './Pages/vente/vente-aVendre/austin/austin.component';
@@ -14,7 +15,9 @@ const routes: Routes = [
   {path:'parking', component:ParkingComponent},
   {path:'vente', component:VenteComponent},
   {path:'contact', component:ContactComponent},
-  {path: 'austin', component:AustinComponent}
+  {path: 'austin', component:AustinComponent},
+  {path:'notFound', component:NotFoundComponent},
+  {path: '**', redirectTo: '/notFound'}
 ];
 
 @NgModule({

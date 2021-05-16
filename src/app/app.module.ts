@@ -30,12 +30,12 @@ import { ContactAdresseComponent } from './Pages/contact/contact-adresse/contact
 import { ContactTitleComponent } from './Pages/contact/contact-title/contact-title.component';
 import { ContactMapComponent } from './Pages/contact/contact-map/contact-map.component';
 import { VenteTitleComponent } from './Pages/vente/vente-title/vente-title.component';
-import { VenteTestAVendreComponent } from './Pages/vente/vente-test-avendre/vente-test-avendre.component';
 import { VentePreviousNextComponent } from './Pages/vente/vente-previous-next/vente-previous-next.component';
 import { AustinComponent } from './Pages/vente/vente-aVendre/austin/austin.component';
 import { BlogComponent } from './Pages/vente/blog/blog.component';
 import { BlogCardsComponent } from './Pages/vente/blog-cards/blog-cards.component';
 import { DiapoComponent } from './Pages/vente/vente-aVendre/austin/diapo/diapo.component';
+import { NotFoundComponent } from './Pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -60,12 +60,12 @@ import { DiapoComponent } from './Pages/vente/vente-aVendre/austin/diapo/diapo.c
     ContactTitleComponent,
     ContactMapComponent,
     VenteTitleComponent,
-    VenteTestAVendreComponent,
     VentePreviousNextComponent,
     AustinComponent,
     BlogComponent,
     BlogCardsComponent,
     DiapoComponent,
+    NotFoundComponent,
     ],
   imports: [
     BrowserModule,
