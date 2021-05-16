@@ -13,7 +13,7 @@ export class HomeFeaturesComponent implements OnInit {
   ngOnInit(): void {
     this.features=[
       {
-        title:'Garage',
+        title:'Services',
         description:'Des techniciens au service de vos oldtimers anglais',
         img: 'assets/icones/outil-cle-et-boulon-et-contour-de-tournevis (1).png',
         link:'/services'
